@@ -15,7 +15,7 @@ function App() {
   const [isTopOfPage, setIsTopOfPage] = useState<boolean>(true);
 
   useEffect(() => {
-    //test commit chnage
+    //checking  commit change
     const handleScroll = () => {
       if (window.scrollY === 0) {
         setIsTopOfPage(true);
